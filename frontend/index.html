@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>💰 Expense Tracker</h1>
+  </header>
+
+  <main>
+    <!-- Form to Add Expenses -->
+    <section id="expense-form">
+      <h2>Add New Expense</h2>
+      <form>
+        <input type="date" id="date" placeholder="Date" required>
+        <input type="number" id="amount" placeholder="Amount (₹)" required>
+        <input type="text" id="category" placeholder="Category" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <button type="button" onclick="addExpense()">Add Expense</button>
+      </form>
+    </section>
+
+    <!-- Display Expenses -->
+    <section id="expenses-display">
+      <h2>Your Expenses</h2>
+      <div id="expenses-list">
+        <!-- Dynamically generated expense cards will go here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Expense Tracker | Made with ❤️ by Swetank</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
