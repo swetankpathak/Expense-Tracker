@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/expenses'; // Backend API URL
+const API_URL = 'const API_URL = 'https://expense-tracker-lime-kappa.vercel.app/api/expenses'; 
 
 // Fetch and display all expenses on page load
 async function fetchExpenses() {
