@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2024-12-31",
+    "amount": 1000,
+    "category": "test2",
+    "description": "test2"
+  },
+  {
+    "date": "2024-12-25",
+    "amount": 1234,
+    "category": "test",
+    "description": "test"
+  },
+  {
+    "date": "2024-12-24",
+    "amount": 1000,
+    "category": "test2",
+    "description": "tst2"
+  },
+  {
+    "date": "2024-12-31",
+    "amount": 100,
+    "category": "Food",
+    "description": "Lunch"
+  },
+  {
+    "date": "2024-12-10",
+    "amount": 100,
+    "category": "shopping",
+    "description": "50"
+  }
+]
