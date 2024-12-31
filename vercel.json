@@ -2,11 +2,13 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "/backend/$1"
-    },
+      "destination": "/api/$1"
+    }
+  ],
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/frontend/$1"
+      "src": "/(.*)",
+      "dest": "/frontend/$1"
     }
   ]
 }
